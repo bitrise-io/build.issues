@@ -2,7 +2,7 @@
 
 Issue / bug tracker for build related issues.
 
-[Report a build issue](https://github.com/bitrise-io/build.issues/issues/new)
+-> [Report a build issue](https://github.com/bitrise-io/build.issues/issues/new) <-
 
 __If you want to share private information with us:__
 
