@@ -23,13 +23,16 @@ Which build Step causes the issue and which version of the step?
 - Does upgrading the build Step to the latest version help?
 - When did the issue start?
 
+
 ### Linux/Android stack builds
 
-- Can it be reproduced by running the build locally with Docker (using the same docker images we use on bitrise.io), after doing a clean git clone (git clone the repository, into a new directory, somewhere on your Mac/PC) and running the build from there? (Related guide: http://blog.bitrise.io/2016/08/08/debug-your-android-linux-builds-locally-with-docker.html )
+- Can it be reproduced by running the build locally, __after doing a clean git clone (git clone the repository, into a new directory, somewhere on your Mac/PC)__ and running the build from there? If no, can it be reproduced with Docker (using the same docker images we use on bitrise.io)? Related guide: http://blog.bitrise.io/2016/08/08/debug-your-android-linux-builds-locally-with-docker.html
+
 
 ### Other stacks
 
-- Can it be reproduced by running the build locally with our CLI ( https://www.bitrise.io/cli ), after doing a clean git clone (git clone the repository, into a new directory, somewhere on your Mac/PC) and running the build from there with the CLI?
+- Can it be reproduced by running the build locally with our CLI ( https://www.bitrise.io/cli ), __after doing a clean git clone (git clone the repository, into a new directory, somewhere on your Mac/PC)__ and running the build from there with the CLI ( https://www.bitrise.io/cli )?
+
 
 ## Build log
 
