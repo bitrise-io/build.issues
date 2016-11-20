@@ -35,4 +35,4 @@ Which build Step causes the issue and which version of the step?
 
 Please attach the build log (you can download the build log from the build's page,
 once the build is finished, using the "Download log" button - floating at the bottom right corner of the log viewer),
-__or if you can't attach the whole log__ then the related step's build log, or as much as you can share.
+__or if you can't attach the whole log__ then _send the **full log** through a private channel (e.g. email - https://www.bitrise.io/contact ), __with a link to the related GitHub issue___.
