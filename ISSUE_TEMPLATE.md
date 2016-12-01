@@ -7,35 +7,38 @@ _Please describe the issue here_
 
 ## Environment:
 
-Where did the issue happen?
+__Where did the issue happen?__
 
-- If on Bitrise.io: which stack?
-- If not on Bitrise.io: on what operating system? (Plus any other information you can share)
+_If on Bitrise.io: which stack? If not on Bitrise.io: on what operating system? (Plus any other information you can share)_
 
-Which build Step causes the issue and which version of the step?
+__Which build Step causes the issue and which version of the step?__
 
 
 ## Reproducibility
 
-- Does a "Rebuild" help? (You can trigger a rebuild from the Build's page, by clicking the "Rebuild" button in the top right corner of a finished build)
-- Does a rebuild without caches help? (You can remove the `Cache:Pull` and `Cache:Push` steps temporarily to not to use the cache, or [you can **delete all the caches** on the `Settings` tab of the app](https://bitrise-io.github.io/devcenter/caching/about-caching/#downloading-and-deleting-caches).
-- If it's an issue which happens sporadically, what's the frequency? (e.g. Once a day ; about x% of the builds)
-- Does upgrading the build Step to the latest version help?
-- When did the issue start?
+- __Does a "Rebuild" help? (You can trigger a rebuild from the Build's page, by clicking the "Rebuild" button in the top right corner of a finished build)__ : YES/NO
+- __Does a rebuild without caches help? (You can remove the `Cache:Pull` and `Cache:Push` steps temporarily to not to use the cache, or [you can *delete all the caches* on the `Settings` tab of the app](https://bitrise-io.github.io/devcenter/caching/about-caching/#downloading-and-deleting-caches).__ : YES/NO
+- __If it's an issue which happens sporadically, what's the frequency? (e.g. Once a day ; about x% of the builds)__
+- __Does upgrading the build Step to the latest version help?__ YES/NO
+- __When did the issue start?__
 
 
 ### Linux/Android stack builds
 
-- Can it be reproduced by running the build locally, __after doing a clean git clone (git clone the repository, into a new directory, somewhere on your Mac/PC)__ and running the build from there with the Bitrise CLI ( https://www.bitrise.io/cli )? If no, can it be reproduced with Docker (using the same docker images / environment we use on bitrise.io)? Related guide: http://blog.bitrise.io/2016/08/08/debug-your-android-linux-builds-locally-with-docker.html
+_Can it be reproduced by running the build locally, **after doing a clean git clone (git clone the repository, into a new directory, somewhere on your Mac/PC)** and running the build from there with the Bitrise CLI ( https://www.bitrise.io/cli )? If no, can it be reproduced with Docker (using the same docker images / environment we use on bitrise.io)? Related guide: http://blog.bitrise.io/2016/08/08/debug-your-android-linux-builds-locally-with-docker.html ._
+
 
 
 ### Other stacks
 
-- Can it be reproduced by running the build locally with our CLI ( https://www.bitrise.io/cli ), __after doing a clean git clone (git clone the repository, into a new directory, somewhere on your Mac/PC)__ and running the build from there with the CLI ( https://www.bitrise.io/cli )?
+_Can it be reproduced by running the build locally with our CLI ( https://www.bitrise.io/cli ), **after doing a clean git clone (git clone the repository, into a new directory, somewhere on your Mac/PC)** and running the build from there with the CLI ( https://www.bitrise.io/cli )?_
+
 
 
 ## Build log
 
-Please attach the build log (you can download the build log from the build's page,
+_Please attach the build log (you can download the build log from the build's page,
 once the build is finished, using the "Download log" button - floating at the bottom right corner of the log viewer),
-__or if you can't attach the whole log__ then _send the **full log** through a private channel (e.g. email - https://www.bitrise.io/contact ), __with a link to the related GitHub issue___.
+**or if you can't attach the whole log** then send the **full log** through a private channel (e.g. email - https://www.bitrise.io/contact ), **with a link to the related GitHub issue**._
+
+
