@@ -25,7 +25,7 @@ __Which build Step causes the issue and which version of the step?__
 
 ### Linux/Android stack builds
 
-_Can it be reproduced by running the build locally, **after doing a clean git clone (git clone the repository, into a new directory, somewhere on your Mac/PC)** and running the build from there with the Bitrise CLI ( https://www.bitrise.io/cli )? If no, can it be reproduced with Docker (using the same docker images / environment we use on bitrise.io)? Related guide: http://blog.bitrise.io/2016/08/08/debug-your-android-linux-builds-locally-with-docker.html ._
+_Can it be reproduced by running the build locally, **after doing a clean git clone (git clone the repository, into a new directory, somewhere on your Mac/PC)** and running the build from there with the Bitrise CLI ( https://www.bitrise.io/cli )? If no, can it be reproduced with Docker (using the same docker images / environment we use on bitrise.io)? Related guide: https://bitrise-io.github.io/devcenter/docker/run-your-build-locally-in-docker/ ._
 
 
 
