@@ -18,6 +18,7 @@ __Which build Step causes the issue and which version of the step?__
 
 - _Does a "Rebuild" help? (You can trigger a rebuild from the Build's page, by clicking the "Rebuild" button in the top right corner of a finished build)_ : YES/NO
 - _Does a rebuild without caches help? (You can remove the `Cache:Pull` and `Cache:Push` steps temporarily to not to use the cache, or [you can *delete all the caches* on the `Settings` tab of the app](https://bitrise-io.github.io/devcenter/caching/about-caching/#downloading-and-deleting-caches)._ : YES/NO
+- _If you have multiple different build configurations (workflows), does the issue affect all/more than one?_ : YES/NO
 - _If it's an issue which happens sporadically, what's the frequency? (e.g. Once a day ; about x% of the builds)_ :
 - _Does upgrading the build Step to the latest version help?_ : YES/NO
 - _When did the issue start?_ :
